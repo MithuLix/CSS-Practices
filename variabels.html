@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>var</title>
+    <style>
+    
+        :root{
+                --mainBgColor:rgb(196, 193, 193);
+                --mainTxtColor: white;
+                --mainPadding: 15px;
+                --mainWidth: 50%;
+                --main-font-family:helvetica;
+        }
+        .a{
+            background-color: var(--mainBgColor);
+            padding: var(--mainPadding);
+            width: var(--mainWidth) ;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            font-family: var(--main-font-family) ;
+            
+        }
+        .b{
+            background-color: grey;
+            padding: var(--mainPadding);
+            width: var(--mainWidth) ;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            font-family: var(--main-font-family) ;
+        }
+        .c{
+            background-color: var(--mainBgColor);
+            padding: var(--mainPadding);
+            width: var(--mainWidth) ;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            font-family: var(--main-font-family) ;
+        }
+        .a:hover{transform: scale(1.2);}
+
+    </style>
+
+</head>
+<body>
+    <h1>The var() function</h1>
+
+    <div class="a">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing   elit. Dolor repellendus aperiam ad illo praesentium   delectus veniam placeat, odit quia exercitationem labore non excepturi fugiat cumque itaque alias autem animi doloremque?</p>
+    </div>
+    <div class="b">
+         <p>Lorem ipsum dolor sit amet consecteturadipisicing   elit. Dolor repellendus aperiam adillo praesentium   delectus veniam placeat, oditquia exercitationem labore non excepturi fugiatcumque itaque alias autem animi doloremque?</p>
+    </div>
+    <div class="c">
+         <p>Lorem ipsum dolor sit ametconsecteturadipisicing   elit. Dolor repellendusaperiamad illo praesentium   delectus veniamplaceat,odit quia exercitationem labore nonexcepturifugiat cumque itaque alias autemanimidoloremque?</p>
+    </div>
+
+</body>
+</html>

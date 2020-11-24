@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>box</title>
+    <style>
+
+    :root{
+        --mainBgColor: rgb(202, 202, 202); 
+        }
+    .a{
+        background-color: var(--mainBgColor);
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        border: 2px solid gray;
+        margin: 0 auto;
+        margin-top: 20px;
+        overflow: auto;
+        resize: both;
+    }
+    .b{
+        box-sizing: border-box;
+        width: 350px;
+        height: 100px;
+        border: 2px solid gray;
+        padding: 40px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="a">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem.
+    </div>
+    <div class="b">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, id?
+    </div>
+</body>
+</html>
